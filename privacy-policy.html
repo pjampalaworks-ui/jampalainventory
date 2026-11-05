@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — JampalaInventory</title>
+  <style>
+    :root {
+      color-scheme: dark light;
+      --bg: #0A0A0C;
+      --surface: #141418;
+      --border: rgba(255, 255, 255, 0.12);
+      --text: #F5F5F7;
+      --muted: #A6A6B2;
+      --accent: #A88BFF;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #F7F7FA;
+        --surface: #FFFFFF;
+        --border: rgba(17, 17, 20, 0.12);
+        --text: #111114;
+        --muted: #555562;
+        --accent: #662FD1;
+      }
+    }
+    body {
+      margin: 0;
+      padding: 32px 20px;
+      font-family: -apple-system, BlinkMacSystemFont, "Plus Jakarta Sans", "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+    h1 { font-size: 1.9rem; margin-bottom: 4px; }
+    h2 { font-size: 1.2rem; margin-top: 28px; }
+    p, li { color: var(--muted); }
+    .meta { font-size: 0.9rem; color: var(--muted); margin-bottom: 24px; }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      font-size: 0.92rem;
+    }
+    th, td {
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+    }
+    th { color: var(--text); }
+    code { color: var(--accent); }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy — JampalaInventory</h1>
+    <div class="meta">Effective Date: November 2026 &bull; Private / Unlisted Mobile Distribution (iOS &amp; Android)</div>
+
+    <div class="card">
+      <h2>1. Stored on This Phone</h2>
+      <p>
+        JampalaInventory keeps your shop stock lists, bills, daily sales, and holiday and festival reminder settings in a
+        private app database on your phone. Your sign-in and any key you add are kept in the phone&rsquo;s secure
+        storage (iOS Keychain / Android Keystore). To sign in, the app makes a random phone ID on your phone and keeps
+        it there; it reaches the owner only when you send it. When the owner renews your access, the app may download
+        one small renewal file over an encrypted HTTPS connection, named by a scrambled form of that ID; it sends no
+        name, no shop data and not the ID itself. We do not run a cloud database of your shop data. On iPhone and
+        iPad, your phone&rsquo;s own encrypted device backup may include app data, depending on your backup settings;
+        on Android, your phone backup and phone-to-phone transfer carry only the app&rsquo;s own encrypted backup
+        file, never the shop database itself. Bill photos are deleted from the app as
+        soon as they are read. If something goes wrong inside the app, it keeps a short note of the error on this
+        phone (the time, the app version and the kind of error, never your shop records); you can share or clear
+        these notes in <strong>Settings &rarr; Privacy &amp; Security</strong>, and nothing is sent anywhere unless
+        you share it. If the owner sets an Owner PIN, the staff names the owner adds and the app&rsquo;s activity
+        record (who saved each bill, count, print and change, and when) stay on this phone with the shop data,
+        are never collected, and are erased with Delete Account &amp; Wipe Data. Backup files are encrypted so
+        that only JampalaInventory can open them; if you set a backup passphrase, nobody can open them without it,
+        including us. Automatic backups are kept in the cloud drive that comes with your phone, under that
+        provider&rsquo;s terms; nothing goes to the developer.
+      </p>
+
+      <h2>2. Permissions</h2>
+      <ul>
+        <li><strong>Camera (Optional):</strong> Requested only when you choose to photograph a printed invoice or counter sale slip.</li>
+        <li><strong>System Photo &amp; File Pickers:</strong> Screenshots and Excel (<code>.xlsx</code> / <code>.csv</code>) files are opened through built-in one-time system pickers without full photo-gallery read access.</li>
+        <li><strong>Zero Location / GPS Tracking:</strong> Regional currency formatting and holiday and festival reminders work from the region you choose for each shop and the system locale—never GPS.</li>
+        <li><strong>Zero Ad Tracking:</strong> JampalaInventory contains zero advertising SDKs, zero analytics trackers, and sets <code>NSPrivacyTracking = false</code>.</li>
+      </ul>
+
+      <h2>3. Reading Bills</h2>
+      <p>
+        By default, bills are read on your phone only. If you add your own Google Gemini API key and turn on the
+        agreement in <strong>Settings &rarr; Bill Reading</strong>, each bill photo you scan is sent over an encrypted
+        HTTPS connection to Google (<code>generativelanguage.googleapis.com</code>) to read the items. Bill photos can
+        show supplier or customer names, phone numbers, and prices. The app asks Google not to store the request,
+        but how long Google keeps data (for example for abuse checks), and whether data sent with a free key may be
+        used to improve Google&rsquo;s services, is decided by Google&rsquo;s own Gemini API terms for your key. You can
+        remove the key and the agreement at any time.
+      </p>
+
+      <h2>4. Deleting Your Account &amp; Data</h2>
+      <p>
+        You can permanently erase your sign-in, keys, scheduled reminders, any leftover temporary photo or export
+        copies, the error notes, and every shop&rsquo;s stock and sales on this phone, at any time, inside the app at:
+        <strong>Settings &rarr; Privacy &amp; Security &rarr; Delete Account &amp; Wipe Data</strong>.
+      </p>
+
+      <!-- UK plan Task 11 (P33): keep these headings the same as the app's privacyPolicySections. -->
+      <h2>5. Shops in the United Kingdom</h2>
+      <p>
+        If your shop is in the UK, UK data protection law (the UK GDPR) applies. In plain words:
+      </p>
+      <ul>
+        <li><strong>Your data stays on your phone.</strong> Your shop&rsquo;s stock, bills and sales are kept on the phone and are not sent to the developer.</li>
+        <li><strong>Google bill reading only with your agreement.</strong> A bill photo is sent to Google only if you add your own key and agree in Settings, as described in section 3.</li>
+        <li><strong>Your rights.</strong> You have the right to know what personal data is held about you, to get a copy, and to have it corrected or erased. Because the data is on your phone, you can see, change, and erase all of it yourself in the app, including with Delete Account &amp; Wipe Data.</li>
+        <li><strong>Contacting the developer.</strong> Email <a href="mailto:supportemail.ji@gmail.com">supportemail.ji@gmail.com</a>.</li>
+        <li><strong>Complaints.</strong> If you are unhappy with how your data is handled, you can complain to the Information Commissioner&rsquo;s Office at <a href="https://ico.org.uk">ico.org.uk</a>.</li>
+      </ul>
+
+      <h2>6. Contact</h2>
+      <p>
+        To contact the developer about this policy or your data, email <a href="mailto:supportemail.ji@gmail.com">supportemail.ji@gmail.com</a>.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>App Store Privacy Nutrition Label &amp; Google Play Data Safety Summary</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Data Category</th>
+            <th>Collected Externally?</th>
+            <th>Shared for Tracking?</th>
+            <th>How It Is Handled</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Shop Stock, Invoices &amp; Daily Sales</td>
+            <td>No (On-Device Only)</td>
+            <td>No</td>
+            <td>Stored in a private app database on the phone; erasable anytime in Settings.</td>
+          </tr>
+          <tr>
+            <td>Bill Photos (Photos, Other User Content)</td>
+            <td>Only if the user adds a Gemini key and agrees; sent to Google</td>
+            <td>No</td>
+            <td>Read on the phone by default. With the user&rsquo;s agreement, sent to Google over HTTPS to read the items; retention follows Google&rsquo;s Gemini API terms. Declare this in App Privacy and Play Data Safety.</td>
+          </tr>
+          <tr>
+            <td>Location / Contacts / Identifiers</td>
+            <td>Never Accessed</td>
+            <td>No</td>
+            <td>Zero GPS, zero contacts, zero advertising identifiers.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</body>
+</html>
